@@ -1,0 +1,17 @@
+{
+  "name": "tsue-timetable",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Look up when your TSUE class starts and which classrooms are free, using the public tsue.edupage.org timetable.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "refresh": "node src/refresh.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
