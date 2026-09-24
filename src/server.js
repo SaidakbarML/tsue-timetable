@@ -53,6 +53,7 @@ app.get('/api/status', async (req, res, next) => {
       datefrom: cache.datefrom,
       classes: cache.classes.length,
       rooms: cache.classrooms.length,
+      now: time.tashkentNow(),
     });
   } catch (err) {
     next(err);
